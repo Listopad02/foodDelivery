@@ -1,0 +1,152 @@
+.container {
+    padding-top: 100px;
+}
+
+.box {
+    background: #F0F0F0;
+    box-shadow: 0px 0px 40px rgba(151, 151, 151, 0.25);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+.image {
+    /*background-image: url("../public/images/Group.png");*/
+    width: 131px;
+    height: 131px;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+}
+
+.avatarChange {
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    z-index: -10;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.load {
+    color: white;
+}
+
+.name_container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #2A2A2A;
+    margin: 0 10px 0 0;
+}
+
+.lastname {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #2A2A2A;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.orders__counter {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    color: #2A2A2A;
+}
+
+.orders__counter:first-child {
+    margin: 40px 30px 40px 0;
+}
+
+.orders__counter:last-child {
+    margin: 40px 0 40px 30px;
+}
+
+.border {
+    margin: auto 0;
+    width: 1px;
+    height: 50px;
+    border-left: 1px solid #C6C6C6;
+}
+
+.orders {
+    background: #F0F0F0;
+    box-shadow: 0px 0px 40px rgba(151, 151, 151, 0.25);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #7D7D7D;
+}
+
+.status {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFB800;
+    padding-top: 24px;
+}
+
+.wait {
+    color: #FFB800;
+}
+.delivered {
+    color: #30B700;
+}
+.canceled {
+    color: #E70000;
+}
+
+.btn {
+    border: none;
+    background: none;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #2A2A2A;
+    cursor: pointer;
+    padding-top: 24px;
+}

@@ -1,0 +1,60 @@
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5000;
+  transition: 0.3s;
+}
+.text {
+  width: 40%;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  line-height: 100%;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: -80px;
+  transition: 0.3s;
+}
+.textXS {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 31px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: 0.3s;
+}
+.button {
+  margin-top: 20px;
+  background: #e70000;
+  border: none;
+  color: #fefefe;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 205px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: 0.3s;
+}
+.back {
+  position: relative;
+  /* background-image: url("../public/images/face6.jpg");
+  background-attachment: fixed;
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.logo {
+  color: #e70000;
+  margin-bottom: 10px;
+}

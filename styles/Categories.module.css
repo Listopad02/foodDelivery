@@ -1,0 +1,110 @@
+.meat,
+.veggies,
+.barbecue,
+.services {
+  border-radius: 16px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 35px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /* transition: 0.3s; */
+  cursor: pointer;
+  overflow: hidden;
+}
+/* .meat:hover,
+.veggies:hover,
+.barbecue:hover,
+.services:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: 0.3s;
+} */
+
+.barbecue,
+.services {
+  /* height: 500px; */
+  height: 500px
+}
+
+.meat,
+.veggies {
+  height: 245px;
+}
+
+.meat {
+  background: #ffbfa3;
+}
+
+.veggies {
+  margin-top: 10px;
+  background: #f9fe97;
+}
+
+.barbecue {
+  background: #c9d2da;
+  line-height: 90%;
+}
+
+.services {
+  background: #baefa4;
+  line-height: 90%;
+}
+.smallText {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.imageMeat {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+.imageVeggies {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+}
+.imageBarbecue {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  z-index: 0;
+}
+.imageServices {
+  position: absolute;
+  bottom: 0px;
+  right: -8px;
+  z-index: 0;
+}
+.bigText {
+  line-height: 85%;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 544px) {
+  .barbecue,
+  .services {
+    height: 320px;
+  }
+
+  .imageBarbecue {
+    margin: 0 -75px 0 0;
+  }
+
+  .barbecueImg {
+    width: 70%;
+    height: auto;
+  }
+  .cookImg {
+    width: 60%;
+    height: auto;
+  }
+  .imgWidth {
+    width: 275px;
+  }
+}
